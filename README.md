@@ -52,7 +52,7 @@ The directory `./model` is used to save the trained model file
 ```
 ## Pretrained Embeddings
 
-We use Dr. Xiao Han’s[bert-as-service](https://github.com/hanxiao/bert-as-service)to obtain the BERT embeddings for NER, which is used as follows:
+We use Dr. Xiao Han’s [bert-as-service](https://github.com/hanxiao/bert-as-service)to obtain the BERT embeddings for NER, which is used as follows:
 - 1.Environmental requirements: python version >=3.5, tensorflow version >=1.10
 - 2.pip install  bert-serving-server; 
 - 3.pip install bert-serving-client
