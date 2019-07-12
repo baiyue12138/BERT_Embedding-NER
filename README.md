@@ -16,7 +16,9 @@ The directory `./data` contains:
 
 - the preprocessed data files, `train_data` and `test_data` 
 - a vocabulary file `word2id.pkl` 
-- a char embedding file `vector.npy`   #This file is a pre-trained char embeddings. Randomly initializes the embedding when this file does not exist
+- a char embedding file `vector.npy`   #This file is a pre-trained char embeddings. Randomly initializes the embedding when this file does not exist.
+
+
 The directory `./data/case` contains:
 - a original file'input.txt',# When you need to use our model for NER, you need to put these sentences into 'input.txt'
 - a 'result.json' # save all identified entities
