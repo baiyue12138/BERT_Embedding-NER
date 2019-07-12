@@ -79,7 +79,7 @@ Then run the command `python main.py --model=2` and the recognized result will b
 
 The best test performance of the model is:
 ```
-ccuracy:  98.64%; precision:  90.87%; recall:  87.13%; F1:  88.96
+accuracy:  98.64%; precision:  90.87%; recall:  87.13%; F1:  88.96
         LOC: precision:  93.41%; recall:  90.16%; F1:  91.76  2777
         ORG: precision:  85.64%; recall:  84.67%; F1:  85.15  1316
         PER: precision:  90.78%; recall:  84.38%; F1:  87.46  1844
