@@ -2,11 +2,11 @@
 """
 @author: bai
 """
+from data_prepare import pad_sequences, next_batch
 import tensorflow as tf
 from tensorflow.contrib.rnn import LSTMCell
 from tensorflow.contrib.crf import crf_log_likelihood
 from tensorflow.contrib.crf import viterbi_decode
-from data_prepare import pad_sequences, next_batch
 from evaluation import conlleval
 from utils import get_logger
 import os
