@@ -13,7 +13,6 @@ from utils import str2bool, get_entity, get_logger
 from data_prepare import load_data, load_vocab, tag2label
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 # hyperparameters
