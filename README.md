@@ -72,9 +72,9 @@ we use __CRF__ and a __Softmax__,  label the tag for each character in one sente
 
 the model can be 0 ,1 or 2.
 "--model=0" means train "--model=1" means test and "--model=2" means application.
-If you use "--model=2", you can identify the entities in some original sentences.
+If you use "--model=2", you can use the trained model to identify the entities in some original sentences.
 First, you need to put the original sentence into the ./data/case/input.txt file;
-Then run the command `python main.py --model=2` and the recognized result will be saved to ./data/case/ Result.json
+Then run the command `python main.py --model=2` and the recognized result will be saved to ./data/case/ result.json
 
 
 The best test performance of the model is:
