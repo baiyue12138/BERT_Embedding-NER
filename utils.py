@@ -3,13 +3,6 @@
 @author: bai
 """
 import logging, argparse
-def str2bool(v):
-    if v.lower() in ('yes', 'true', 't', 'y', '1'):
-        return True
-    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
-        return False
-    else:
-        raise argparse.ArgumentTypeError('Boolean value expected.')
 
 
 def get_entity(tag_seq, char_seq):
@@ -87,7 +80,14 @@ def get_ORG(tag_seq, char_seq):
                 org=''
     return ORG
 
-
+def str2bool(v):
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
+        
 def get_logger(filename):
     logger = logging.getLogger('logger')
     logger.setLevel(logging.DEBUG)
